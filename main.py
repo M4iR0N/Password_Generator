@@ -1,7 +1,7 @@
 ####
 import random
 import string
-# from progress.bar import IncrementalBar
+from progress.bar import IncrementalBar
 
 def randomString(stringLength=10):
     letters = string.ascii_letters + string.digits + string.punctuation
@@ -47,3 +47,5 @@ while True:
         break
     elif exit == 'y':
         continue
+
+randomString()
